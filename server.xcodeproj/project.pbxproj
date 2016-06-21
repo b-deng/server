@@ -256,6 +256,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = boost_1_61_0/;
+				LIBRARY_SEARCH_PATHS = "boost_1_61_0/bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi/";
+				OTHER_LDFLAGS = "-lboost_system";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,6 +266,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = boost_1_61_0/;
+				LIBRARY_SEARCH_PATHS = "boost_1_61_0/bin.v2/libs/system/build/darwin-4.2.1/release/link-static/threading-multi/";
+				OTHER_LDFLAGS = "-lboost_system";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
