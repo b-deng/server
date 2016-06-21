@@ -31,6 +31,9 @@ public:
 
   /// Handle a request and produce a reply.
   void handle_request(const request& req, reply& rep);
+    void do_process(const std::string &uri, reply &rep);
+    void get_all_lists(reply &rep);
+    void get_selected_item(const std::string &uri, reply &rep);
 
 private:
   /// The directory containing the files to be served.

@@ -68,14 +68,36 @@ void request_handler::handle_request(const request& req, reply& rep)
 
   // Fill out the reply to be sent to the client.
   rep.status = reply::ok;
-  char buf[512];
-  while (is.read(buf, sizeof(buf)).gcount() > 0)
-    rep.content.append(buf, is.gcount());
+  //char buf[512];
+  //while (is.read(buf, sizeof(buf)).gcount() > 0)
+    //rep.content.append(buf, is.gcount());
+  do_process(req.uri, rep);
   rep.headers.resize(2);
   rep.headers[0].name = "Content-Length";
   rep.headers[0].value = std::to_string(rep.content.size());
   rep.headers[1].name = "Content-Type";
   rep.headers[1].value = mime_types::extension_to_type(extension);
+}
+    
+void request_handler::do_process(const std::string &uri, reply &rep)
+{
+    if (uri.find("getAllLists") != std::string::npos)
+    {
+        get_all_lists(rep);
+    }
+    else if (uri.find("getItem") != std::string::npos)
+    {
+        get_selected_item(uri, rep);
+    }
+}
+void request_handler::get_all_lists(reply &rep)
+{
+    rep.content;
+}
+    
+void request_handler::get_selected_item(const std::string &uri, reply &rep)
+{
+
 }
 
 bool request_handler::url_decode(const std::string& in, std::string& out)

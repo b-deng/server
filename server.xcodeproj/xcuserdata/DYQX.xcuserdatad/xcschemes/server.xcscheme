@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "192.168.79.245 25259 ."
+            argument = "192.168.79.245 25259 /Users/DYQX/Documents/server/boost_1_61_0"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
