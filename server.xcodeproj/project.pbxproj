@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB8269791D192F6800A2483E /* connection_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8269691D192F6800A2483E /* connection_manager.cpp */; };
+		CB82697A1D192F6800A2483E /* connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB82696B1D192F6800A2483E /* connection.cpp */; };
+		CB82697B1D192F6800A2483E /* mime_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB82696E1D192F6800A2483E /* mime_types.cpp */; };
+		CB82697C1D192F6800A2483E /* reply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8269701D192F6800A2483E /* reply.cpp */; };
+		CB82697D1D192F6800A2483E /* request_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8269721D192F6800A2483E /* request_handler.cpp */; };
+		CB82697E1D192F6800A2483E /* request_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8269741D192F6800A2483E /* request_parser.cpp */; };
+		CB82697F1D192F6800A2483E /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB8269771D192F6800A2483E /* server.cpp */; };
 		F73199461D183F2C0096C098 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F73199451D183F2C0096C098 /* main.cpp */; };
-		F731994E1D1840490096C098 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F731994C1D1840490096C098 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +30,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB8269691D192F6800A2483E /* connection_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connection_manager.cpp; sourceTree = "<group>"; };
+		CB82696A1D192F6800A2483E /* connection_manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = connection_manager.hpp; sourceTree = "<group>"; };
+		CB82696B1D192F6800A2483E /* connection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connection.cpp; sourceTree = "<group>"; };
+		CB82696C1D192F6800A2483E /* connection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = connection.hpp; sourceTree = "<group>"; };
+		CB82696D1D192F6800A2483E /* header.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = header.hpp; sourceTree = "<group>"; };
+		CB82696E1D192F6800A2483E /* mime_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mime_types.cpp; sourceTree = "<group>"; };
+		CB82696F1D192F6800A2483E /* mime_types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mime_types.hpp; sourceTree = "<group>"; };
+		CB8269701D192F6800A2483E /* reply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reply.cpp; sourceTree = "<group>"; };
+		CB8269711D192F6800A2483E /* reply.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reply.hpp; sourceTree = "<group>"; };
+		CB8269721D192F6800A2483E /* request_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = request_handler.cpp; sourceTree = "<group>"; };
+		CB8269731D192F6800A2483E /* request_handler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = request_handler.hpp; sourceTree = "<group>"; };
+		CB8269741D192F6800A2483E /* request_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = request_parser.cpp; sourceTree = "<group>"; };
+		CB8269751D192F6800A2483E /* request_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = request_parser.hpp; sourceTree = "<group>"; };
+		CB8269761D192F6800A2483E /* request.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = request.hpp; sourceTree = "<group>"; };
+		CB8269771D192F6800A2483E /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		CB8269781D192F6800A2483E /* server.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = server.hpp; sourceTree = "<group>"; };
 		F73199421D183F2C0096C098 /* server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = server; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73199451D183F2C0096C098 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F731994C1D1840490096C098 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
-		F731994D1D1840490096C098 /* test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +80,23 @@
 		F73199441D183F2C0096C098 /* server */ = {
 			isa = PBXGroup;
 			children = (
+				CB8269691D192F6800A2483E /* connection_manager.cpp */,
+				CB82696A1D192F6800A2483E /* connection_manager.hpp */,
+				CB82696B1D192F6800A2483E /* connection.cpp */,
+				CB82696C1D192F6800A2483E /* connection.hpp */,
+				CB82696D1D192F6800A2483E /* header.hpp */,
+				CB82696E1D192F6800A2483E /* mime_types.cpp */,
+				CB82696F1D192F6800A2483E /* mime_types.hpp */,
+				CB8269701D192F6800A2483E /* reply.cpp */,
+				CB8269711D192F6800A2483E /* reply.hpp */,
+				CB8269721D192F6800A2483E /* request_handler.cpp */,
+				CB8269731D192F6800A2483E /* request_handler.hpp */,
+				CB8269741D192F6800A2483E /* request_parser.cpp */,
+				CB8269751D192F6800A2483E /* request_parser.hpp */,
+				CB8269761D192F6800A2483E /* request.hpp */,
+				CB8269771D192F6800A2483E /* server.cpp */,
+				CB8269781D192F6800A2483E /* server.hpp */,
 				F73199451D183F2C0096C098 /* main.cpp */,
-				F731994C1D1840490096C098 /* test.cpp */,
-				F731994D1D1840490096C098 /* test.hpp */,
 			);
 			path = server;
 			sourceTree = "<group>";
@@ -124,7 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73199461D183F2C0096C098 /* main.cpp in Sources */,
-				F731994E1D1840490096C098 /* test.cpp in Sources */,
+				CB8269791D192F6800A2483E /* connection_manager.cpp in Sources */,
+				CB82697F1D192F6800A2483E /* server.cpp in Sources */,
+				CB82697A1D192F6800A2483E /* connection.cpp in Sources */,
+				CB82697B1D192F6800A2483E /* mime_types.cpp in Sources */,
+				CB82697D1D192F6800A2483E /* request_handler.cpp in Sources */,
+				CB82697C1D192F6800A2483E /* reply.cpp in Sources */,
+				CB82697E1D192F6800A2483E /* request_parser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +255,7 @@
 		F731994A1D183F2C0096C098 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = boost_1_61_0/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -222,6 +263,7 @@
 		F731994B1D183F2C0096C098 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = boost_1_61_0/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -245,6 +287,7 @@
 				F731994B1D183F2C0096C098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
